@@ -205,6 +205,7 @@ const ContactsItem = (props) => {
         //Working Code (End)
 
         const permission = await MediaLibrary.requestPermissionsAsync();
+        setUploading(true);
         if (permission.granted) {
             try {
                 const asset = await MediaLibrary.createAssetAsync(image);
@@ -231,15 +232,20 @@ const ContactsItem = (props) => {
                 MediaLibrary.createAlbumAsync(data.contactName, asset, false)
                 .then(() => {
                     console.log('File Saved Successfully!');
+                    Alert.alert('File Saved Successfully!');
+                    setUploading(false);
                 })
                 .catch(() => {
                     console.log('Error In Saving File!');
+                    Alert.alert('Error In Saving File!');
+                    setUploading(false);
                 });
             } catch (error) {
                 console.log(error);
             }
         } else {
             console.log('Need Storage permission to save file');
+            Alert.alert('Need Storage permission to save file');
         }
     };
       
