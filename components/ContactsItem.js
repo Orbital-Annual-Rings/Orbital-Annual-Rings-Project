@@ -246,6 +246,7 @@ const ContactsItem = (props) => {
         } else {
             console.log('Need Storage permission to save file');
             Alert.alert('Need Storage permission to save file');
+            setUploading(false);
         }
     };
       
