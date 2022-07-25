@@ -18,7 +18,7 @@ const HomeScreen = ({ navigation }) => {
 
     //Fall Detector Code (Start)
     //
-    /*const [data, setData] = useState({
+    const [data, setData] = useState({
         x: 0,
         y: 0,
         z: 0,
@@ -100,7 +100,7 @@ const HomeScreen = ({ navigation }) => {
                 messaging();
             }
         }
-    }, [data]);*/
+    }, [data]);
       //
       //Fall Detector Code (End)
 
