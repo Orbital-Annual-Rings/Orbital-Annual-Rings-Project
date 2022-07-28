@@ -58,7 +58,7 @@ Possible Day and Meal Planner for those with dietary requirements. Inputting the
   a) Type "node -v" in the command prompt/terminal, if a version number starting with "v" followed by some numbers returns, NodeJS has been installed
   b) Type "npm -v" in the command prompt/terminal, if some numbers indicating the version number of npm returns, npm has been installed
 3) Next, we install Expo CLI using npm
-4) Type into command prompt/terminal "npm install expo-cli --global"
+4) Type into command prompt/terminal "npm install --save --legacy-peer-deps", wait for it to be completed, then type "npm install expo-cli --global"
 5) Lastly, download Expo GO on your android/IOS device to run the application on your phones
 6) Now we're done with the installations!
 7) To run the application, use the command prompt/terminal to change directory to the app's folder (the app folder containing package.json)
