@@ -63,6 +63,12 @@ Possible Day and Meal Planner for those with dietary requirements. Inputting the
 6) Now we're done with the installations!
 7) To run the application, use the command prompt/terminal to change directory to the app's folder (the app folder containing package.json)
 8) Type in "expo start" in command prompt/terminal, and a QR code should appear
+
+Method 1:
+9) Scan the QR code in the command prompt/terminal using the Expo GO app/phone camera(Android/IOS), and the application will automatically appear on your mobile phones
+10) Start using and navigating around the app! :)
+
+Method 2 (If method 1 does not work):
 9) Don't scan the QR code in the command prompt/terminal
 10) Type 'd' in command prompt/terminal, and a new webpage should open in your browser
 11) Select 'Tunnel' above the QR code in that webpage, and wait for the new QR code to be displayed on the same webpage
