@@ -125,12 +125,12 @@ const styles = StyleSheet.create({
 
     },
     textTitle: {
-        fontFamily: 'sans-serif',
+        //fontFamily: 'sans-serif',
         fontSize: 40,
         marginVertical: 10,
     },
     textBody: {
-        fontFamily: 'sans-serif',
+        //fontFamily: 'sans-serif',
         fontSize: 16
     },
     button: {
